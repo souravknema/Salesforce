@@ -12,7 +12,7 @@ trigger AccountTrigger2 on Account (before insert,before update,after insert,aft
             }
             
             if(acc.name == 'Telus2'){
-                //acc.addError('duplicate account');
+                //acc.addError('duplicate account....');
             }
         }
     }
